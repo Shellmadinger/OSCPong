@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\OSCPaddle.cs" />
     <Compile Include="Assets\Scripts\PaddleMovementPlayer.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
   </ItemGroup>

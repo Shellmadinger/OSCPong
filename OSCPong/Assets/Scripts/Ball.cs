@@ -20,5 +20,6 @@ public class Ball : MonoBehaviour
         ballTrajectoryY = Random.Range(0, 2) == 0 ? -1 : 1;
 
         ballBody.velocity = new Vector2(ballTrajectoryX * speed, ballTrajectoryY * speed);
+        Debug.Log(ballBody.velocity);
     }
 }

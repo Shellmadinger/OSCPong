@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PaddleMovementPlayer : MonoBehaviour
 {
-    //public Rigidbody2D paddleBody;
     public float speed;
     float vertPaddleMov;
     
