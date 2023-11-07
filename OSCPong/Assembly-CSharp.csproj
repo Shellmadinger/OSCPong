@@ -62,6 +62,8 @@
     <Compile Include="Assets\Scripts\OSCPaddle.cs" />
     <Compile Include="Assets\Scripts\PaddleMovementPlayer.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
+    <Compile Include="Assets\Scripts\OSC.cs" />
+    <Compile Include="Assets\Scripts\readWriteArduino.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

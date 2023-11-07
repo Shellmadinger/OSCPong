@@ -30,5 +30,7 @@ public class OSCPaddle : MonoBehaviour
         {
             OSCPad.velocity *= 0;
         }
+
+        Debug.Log(OSCPad.velocity);
     }
 }
