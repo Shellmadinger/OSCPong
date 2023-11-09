@@ -311,7 +311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   osc: {fileID: 762869616}
-  paddle: {fileID: 0}
   ArduinoMessageAddress: /arduino2
   arduinoVal1: 0
   arduinoVal2: 0
@@ -515,7 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inPort: 8000
-  outIP: 192.168.137.54
+  outIP: 192.168.137.90
   outPort: 9000
 --- !u!4 &762869617
 Transform:

@@ -78,7 +78,7 @@ else{
   digitalWrite(LEDpin2, LOW);
 }
 
-//Serial.print(paddleY);
+//Serial.print(WiFi.status());
 //Serial.println();
 
 }
@@ -117,6 +117,7 @@ void setup()
     //This binds the incoming data to a callback function (just like how it is set up on the unity side)
     OscWiFi.subscribe(myReceivePort, unityMessageTag, unityOSCdata);
 
+
 }
 
 void loop() 
@@ -125,6 +126,7 @@ void loop()
     //OscWiFi.update();  // should be called to receive + send osc
     // or do that separately
     OscWiFi.parse(); // to receive osc
+    delay(10);
     // OscWiFi.post(); // to publish osc
    
 
